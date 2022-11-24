@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Tangerine:wght@400;700&display=swap");
+body {
+  background-image: url(../../img/background/01.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50vmax;
+  margin-top: 10em;
+}
+
+.custom-nav {
+  font-family: "Charm", cursive;
+}
+
+.custom-nav .navbar-brand img {
+  width: 150px;
+  height: 40px;
+}
+
+.custom-nav .navbar-brand img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.custom-nav #navbarScroll .navbar-nav .nav-item .nav-link {
+  color: #e53e6a;
+  font-weight: 700;
+  margin-left: 1em;
+  border-radius: 2em;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s color ease;
+  transition: 0.5s color ease;
+}
+
+.custom-nav #navbarScroll .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+  border-radius: 2em;
+  border: 1px solid #fd789b;
+  background-color: #fd789b;
+}
+
+.custom-header {
+  margin-top: 10em;
+}
+
+.custom-header h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fd789b;
+  white-space: nowrap;
+}
+
+.custom-header h3 {
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #e53e6a;
+}
+
+.custom-header p {
+  color: #3c4f5c;
+  font-size: 1rem;
+  margin-top: 2em;
+  text-align: justify;
+}
+
+.custom-header h5 {
+  color: #fd789b;
+  margin-bottom: 1rem;
+}
+
+.custom-header a {
+  display: inline-block;
+  color: black;
+  background-color: #fd789b;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.custom-header a:hover {
+  color: #fd789b;
+  border: 1px solid #fd789b;
+  background-color: transparent;
+}
+
+#carousel {
+  background-color: #e53e6a;
+}
+
+.menu {
+  background-color: #e53e6a;
+}
+
+.menu h2 {
+  color: #ffffff;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+}
+
+.menu h3 {
+  font-family: "Charm", cursive;
+  color: #ffffff;
+}
+
+.menu h5 {
+  color: #ffffff;
+}
+
+.menu p {
+  text-align: justify;
+  color: #ffffff;
+}
+
+.menu a {
+  display: inline-block;
+  color: black;
+  background-color: #fd789b;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.menu a:hover {
+  color: #fd789b;
+  border: 1px solid #fd789b;
+  background-color: transparent;
+}
+
+.menu img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#fitur h2 {
+  color: #e53e6a;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+}
+
+#fitur a {
+  display: inline-block;
+  color: black;
+  background-color: #fd789b;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+#fitur a:hover {
+  color: #fd789b;
+  border: 1px solid #fd789b;
+  background-color: transparent;
+}
+
+#fitur img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#diliput h2 {
+  color: #e53e6a;
+  font-family: "Charm", cursive;
+  font-weight: 700;
+}
+
+footer {
+  height: 250px;
+  background-image: url(../../img/background/02.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+
+footer h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+footer h6:hover {
+  color: #3c4f5c;
+}
+
+footer h6 a {
+  text-decoration: none;
+  color: white;
+}
+
+footer h6 a:hover {
+  color: #3c4f5c;
+}
+
+footer a {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3c4f5c;
+}
+
+footer a h6 {
+  text-decoration: none;
+  color: white;
+}
+
+footer a h6:hover {
+  color: #3c4f5c;
+}
+
+@media (max-width: 480px) {
+  .header h2 {
+    margin-top: 9rem;
+    text-align: center;
+  }
+  .header h3 {
+    text-align: center;
+  }
+  .footer {
+    height: 200px;
+    background-image: url(../../img/background/02.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  .footer h6 {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 50%;
+  }
+  .footer h6:hover {
+    color: #3c4f5c;
+  }
+  .footer h6 a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer h6 a:hover {
+    color: #3c4f5c;
+  }
+  .footer a {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+  }
+  .footer a:hover {
+    color: #3c4f5c;
+  }
+  .footer a h6 {
+    text-decoration: none;
+    color: white;
+  }
+  .footer a h6:hover {
+    color: #3c4f5c;
+  }
+}
+/*# sourceMappingURL=main.css.map */
